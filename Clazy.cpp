@@ -349,3 +349,4 @@ private:
 
 static FrontendPluginRegistry::Add<LazyASTAction>
 X("clang-lazy", "clang lazy plugin");
+LLVM_EXPORT_REGISTRY(FrontendPluginRegistry)
