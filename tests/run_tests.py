@@ -22,7 +22,7 @@ class Test:
         self.link = False # If true we also call the linker
         self.check = check
         self.qt_major_version = 5 # Tests use Qt 5 by default
-        self.env = {}
+        self.env = os.environ
 
     def isScript(self):
         return self.filename.endswith(".sh")
