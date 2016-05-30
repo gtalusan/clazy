@@ -3,8 +3,8 @@
 #TODO help command line option
 #TODO version command line option
 
-libdir=/usr/lib64
-sharedir=/usr/share/clazy
+libdir=@CMAKE_INSTALL_PREFIX@/@CMAKE_INSTALL_LIBDIR@
+sharedir=@CMAKE_INSTALL_PREFIX@/@SHARE_INSTALL_DIR@/clazy
 
 PRLIST() {
   echo ""
